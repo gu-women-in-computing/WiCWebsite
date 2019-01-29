@@ -1,15 +1,26 @@
-*
-{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header
-{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(picture.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(picture.jpg);
+  height: 25vh;
+  background-size: cover;
+  background-position: center;
 }
 
+footer {
+  background-color: darkred;
+  color: white;
+  size: 20 vh;
+}
 
+h1 {
+  color: white;
+}
+
+.pageContent {
+  height: 100vh;
+}
