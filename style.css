@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Lato", sans-serif;
 }
 
 header {
@@ -11,7 +12,7 @@ header {
   height: 25vh;
   background-size: cover;
   background-position: center; */
-  height: 30vh;
+  height: 28.5vh;
 }
 
 footer {
@@ -27,11 +28,14 @@ h1 {
   font-size: 5vh;
 }
 
+h2 {
+  font-family: "Kosugi Maru", sans-serif;
+}
+
 .pageContent {
-  height: 100vh;
+  height: 150vh;
   background-color: rgb(238, 238, 238);
   text-align: center;
-  font-family: "Lato", sans-serif;
   color: #041e42;
 }
 
@@ -83,6 +87,11 @@ button a {
   width: 12%;
 }
 
+.title {
+  height: 12vh;
+  padding-top: 3vh;
+}
+
 /*for mobile devices */
 @media only screen and (max-width: 980px) {
   header {
@@ -90,7 +99,11 @@ button a {
   }
 
   h1 {
-    font-size: 5vh;
+    font-size: 4vh;
+  }
+
+  h2 {
+    font-size: 3.5vh;
   }
 
   li a {
@@ -100,5 +113,11 @@ button a {
 
   .logo {
     width: 25%;
+  }
+
+  .title {
+    height: 5vh;
+    position: relative;
+    margin-top: 11.5vh;
   }
 }
