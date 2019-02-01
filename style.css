@@ -1,28 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Kosugi+Maru|Lato");
+
 * {
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(picture.jpg);
   height: 25vh;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
+  height: 30vh;
 }
 
 footer {
-  background-color: darkred;
-  color: white;
+  background-color: #c8102e;
+  color: rgb(238, 238, 238);
   size: 20 vh;
 }
 
 h1 {
-  color: white;
+  color: #041e42;
+  text-align: center;
+  font-family: "Kosugi Maru", sans-serif;
+  font-size: 5vh;
 }
 
 .pageContent {
   height: 100vh;
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #041e42;
 }
 
 ul {
@@ -30,21 +40,61 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: rgb(238, 238, 238);
+  text-align: center;
 }
 
 li {
-  float: left;
+  display: inline;
 }
 
 li a {
-  display: block;
-  color: darkgray;
+  display: inline-block;
+  color: #041e42;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 3vh;
 }
 
 li a:hover {
-  background-color: fuchsia;
+  background-color: #c8102e;
+}
+
+button {
+  background-color: #c8102e;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
+}
+
+/*for mobile devices */
+@media only screen and (max-width: 980px) {
+  header {
+    height: 25vh;
+  }
+
+  h1 {
+    font-size: 5vh;
+  }
+
+  li a {
+    display: block;
+    color: #c8102e;
+  }
+
+  .logo {
+    width: 25%;
+  }
 }
