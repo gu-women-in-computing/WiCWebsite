@@ -7,11 +7,6 @@
 }
 
 header {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(picture.jpg);
-  height: 25vh;
-  background-size: cover;
-  background-position: center; */
   height: 28.5vh;
 }
 
@@ -28,13 +23,29 @@ h1 {
   font-size: 5vh;
 }
 
+hr {
+  width: 80%;
+  height: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #666;
+  border: 0 none;
+}
+.womcom-title {
+  border-bottom: 1px red solid;
+  width: max-content;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  margin-top: 1.5vh;
+}
+
 h2 {
   font-family: "Kosugi Maru", sans-serif;
+  color: #c8102e;
 }
 
 .pageContent {
   height: 150vh;
-  background-color: rgb(238, 238, 238);
   text-align: center;
   color: #041e42;
 }
@@ -44,7 +55,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(238, 238, 238);
   text-align: center;
 }
 
@@ -62,7 +72,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #c8102e;
+  color: #c8102e;
 }
 
 button {
@@ -87,9 +97,29 @@ button a {
   width: 12%;
 }
 
-.title {
-  height: 12vh;
-  padding-top: 3vh;
+.center-children-verticaly {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-image {
+  padding-top: 10vh;
+  margin-bottom: 5vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(picture.jpg);
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  color: white;
+  display: inline-block;
+}
+
+.break {
+  height: 25vh;
 }
 
 input[type="text"] {
@@ -123,6 +153,12 @@ input[type="submit"] {
   font-weight: bold;
 }
 
+.column p {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 1.5vw;
+}
+
 .column a {
   text-decoration: none;
   color: #c8102e;
@@ -149,6 +185,10 @@ input[type="submit"] {
     font-size: 4vh;
   }
 
+  .womcom-title {
+    margin-top: 2vh;
+  }
+
   h2 {
     font-size: 3.5vh;
   }
@@ -162,10 +202,8 @@ input[type="submit"] {
     width: 25%;
   }
 
-  .title {
-    height: 5vh;
-    position: relative;
-    margin-top: 11.5vh;
+  .content {
+    font-size: 2.5vh;
   }
 
   .column {
