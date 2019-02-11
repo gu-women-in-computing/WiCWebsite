@@ -11,9 +11,14 @@ header {
 }
 
 footer {
-  background-color: #c8102e;
-  color: rgb(238, 238, 238);
-  size: 20 vh;
+  background-color: lightgray;
+  color: #041e42;
+  height: 9vh;
+  font-size: 1.75vh;
+}
+
+footer a {
+  color: #c8102e;
 }
 
 h1 {
@@ -32,11 +37,16 @@ hr {
   border: 0 none;
 }
 .womcom-title {
-  border-bottom: 1px red solid;
+  border-bottom: 1px #c8102e;
   width: max-content;
   margin: 0 auto;
   padding-bottom: 10px;
   margin-top: 1.5vh;
+}
+
+.title {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 h2 {
