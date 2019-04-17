@@ -11,11 +11,12 @@ header {
 }
 
 footer {
-  background-color: lightgray;
-  color: white;
-  height: 9vh;
+  background-color: #f8f8f8;
+  color: #40050f;
+  height: 10vh;
   font-size: 1.75vh;
-  bottom: 0%;
+  bottom: 0px;
+  position: fixed;
   width: 100%;
 }
 
