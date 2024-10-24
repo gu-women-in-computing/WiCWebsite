@@ -10,3 +10,7 @@ many aspects to improve upon. Future projects include adding more photos, updati
 and creating an alumni page. Please feel free to contribute to and change this website. To do
 so, you'll need to familiarize yourself with git and GitHub: [here is a link to an easy to follow
 tutorial.](https://guides.github.com/activities/hello-world/) 
+
+
+
+this is a test don't worry about it
