@@ -11,5 +11,3 @@ and creating an alumni page. Please feel free to contribute to and change this w
 so, you'll need to familiarize yourself with git and GitHub: [here is a link to an easy to follow
 tutorial.](https://guides.github.com/activities/hello-world/) 
 
-
-creating sample data
